@@ -13,6 +13,9 @@
 		04B7BF1E1AE217AB0007D5EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B7BF1D1AE217AB0007D5EB /* Images.xcassets */; };
 		04B7BF211AE217AB0007D5EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B7BF1F1AE217AB0007D5EB /* LaunchScreen.xib */; };
 		04B7BF2D1AE217AB0007D5EB /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7BF2C1AE217AB0007D5EB /* TipCalculatorTests.swift */; };
+		04B7C0341AE601240007D5EB /* tip1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04B7C0311AE601240007D5EB /* tip1.jpeg */; };
+		04B7C0351AE601240007D5EB /* tip2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04B7C0321AE601240007D5EB /* tip2.jpeg */; };
+		04B7C0361AE601240007D5EB /* tips_jar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04B7C0331AE601240007D5EB /* tips_jar.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		04B7BF261AE217AB0007D5EB /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B7BF2B1AE217AB0007D5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B7BF2C1AE217AB0007D5EB /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		04B7C0311AE601240007D5EB /* tip1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tip1.jpeg; path = ../../../../Desktop/tip1.jpeg; sourceTree = "<group>"; };
+		04B7C0321AE601240007D5EB /* tip2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tip2.jpeg; path = ../../../../Desktop/tip2.jpeg; sourceTree = "<group>"; };
+		04B7C0331AE601240007D5EB /* tips_jar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tips_jar.jpg; path = ../../../../Desktop/tips_jar.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				04B7BF161AE217AB0007D5EB /* AppDelegate.swift */,
 				04B7BF181AE217AB0007D5EB /* ViewController.swift */,
 				04B7BF1A1AE217AB0007D5EB /* Main.storyboard */,
+				04B7C0311AE601240007D5EB /* tip1.jpeg */,
+				04B7C0321AE601240007D5EB /* tip2.jpeg */,
+				04B7C0331AE601240007D5EB /* tips_jar.jpg */,
 				04B7BF1D1AE217AB0007D5EB /* Images.xcassets */,
 				04B7BF1F1AE217AB0007D5EB /* LaunchScreen.xib */,
 				04B7BF141AE217AB0007D5EB /* Supporting Files */,
@@ -192,9 +201,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B7C0351AE601240007D5EB /* tip2.jpeg in Resources */,
+				04B7C0361AE601240007D5EB /* tips_jar.jpg in Resources */,
 				04B7BF1C1AE217AB0007D5EB /* Main.storyboard in Resources */,
 				04B7BF211AE217AB0007D5EB /* LaunchScreen.xib in Resources */,
 				04B7BF1E1AE217AB0007D5EB /* Images.xcassets in Resources */,
+				04B7C0341AE601240007D5EB /* tip1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -349,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +421,7 @@
 				04B7BF321AE217AB0007D5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B7BF331AE217AB0007D5EB /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +430,7 @@
 				04B7BF351AE217AB0007D5EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
